@@ -53,7 +53,7 @@ QUnit.test("Should format the products with a price lower than 50 to Success", f
 	});
 });
 
-QUnit.test("Should format the products with a price of 50 to Normal", function (asssert) {
+QUnit.test("Should format the products with a price of 50 to Normal", function (assert) {
 	priceStateTestCase.call(this, {
 		assert: assert,
 		price: 50,
